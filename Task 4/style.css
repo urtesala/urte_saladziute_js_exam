@@ -56,24 +56,18 @@ li {
   text-align: left;
 }
 
-/* mobile */
-@media screen and (min-width: 425px) {
-  #output {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 /* tablet */
 @media screen and (min-width: 768px) {
   #output {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1024px) {
   #output {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
